@@ -1,0 +1,8 @@
+1.将.bat文件放在要修改名称的文件夹下
+2.在该文件夹下创建文件名为“学号表.txt”的文件
+3.从excel复制一份姓名学号内容到“学号表.txt”的文件中去
+4.右击.bat文件用记事本打开
+5.按照要更改的内容更改变量subject，chapter，separator的值
+6.更改显示样式，
+找到命令%%i%separator%%%j%separator%%subject%%separator%%chapter%.！type！
+%%i与%%j分别对应学号表中第一列与第二列的内容，可以改变其他%变量%的位置或删去以达到需要的样式
